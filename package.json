@@ -2,7 +2,12 @@
   "name": "@dashwright/reporter",
   "version": "0.1.0",
   "description": "Upload local Playwright reports to DashWright. Includes a CLI and a Playwright reporter plugin.",
-  "keywords": ["playwright", "dashwright", "reporter", "test-reporting"],
+  "keywords": [
+    "playwright",
+    "dashwright",
+    "reporter",
+    "test-reporting"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dashwright/dashwright"
@@ -44,6 +49,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
+    "@types/archiver": "^7.0.0",
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0",
     "vitest": "^2.0.0"
